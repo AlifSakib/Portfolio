@@ -1,0 +1,84 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+.heading-color {
+  color: violet;
+}
+
+.top-header h1 {
+  font-size: 50px;
+}
+.paragraph {
+  font-style: italic;
+  text-align: justify;
+  padding-bottom: 15px;
+}
+.top-header a:hover {
+  background: linear-gradient(45deg, lightsalmon, tomato);
+}
+
+.top-header {
+  background-image: url(/images/top-banner.png);
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.half-width {
+  width: 50%;
+  padding: 5%;
+}
+.half-width img {
+  width: 100%;
+}
+
+.click {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  background: linear-gradient(45deg, slateblue, violet);
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+
+.middle-header {
+  display: flex;
+  background-image: url(/images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.final-header {
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 2%;
+}
+
+.experience-area {
+  display: flex;
+  background-image: url(/images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#exp-1 {
+  border-left: 6px solid lightcoral;
+  border-radius: 10px;
+  box-shadow: 10px 25px 40px gray;
+  width: 40%;
+  margin-right: 5%;
+  margin-left: 2%;
+  padding: 40px;
+}
+
+#exp-2 {
+  border-left: 6px solid violet;
+  box-shadow: 10px 25px 40px gray;
+  border-radius: 10px;
+  width: 40%;
+  padding: 40px;
+}
+.footer {
+  text-align: center;
+  padding: 10% 10% 5% 10%;
+  font-weight: 500;
+}
